@@ -1,6 +1,6 @@
 {
   "name": "happi-dev-sdk",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Happi.dev SDK",
   "main": "index.js",
   "scripts": {
