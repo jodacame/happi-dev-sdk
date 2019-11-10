@@ -24,6 +24,9 @@ var music = {
         limit = parseInt(limit);
         return this.request.ajax("GET", `${this.getEndPoint()}artists/${id_artist}/smart-playlist?limit=${limit}`,{},this.getHeaders());
     },
+    acrostic: function(id_artist,message){
+        return this.request.ajax("GET", `${this.getEndPoint()}artists/${id_artist}/smart-playlist/acrostic?message=${message}`,{},this.getHeaders());
+    },
     lyrics: function (id_artist, id_album, id_track){
         return this.request.ajax("GET", `${this.getEndPoint()}artists/${id_artist}/albums/${id_album}/tracks/${id_track}/lyrics`,{},this.getHeaders());
     },

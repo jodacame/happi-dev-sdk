@@ -15,6 +15,7 @@ Simple, robust Happi.dev API client
             * [Albums](#albums)
             * [Tracks](#tracks)
             * [Smart Playlist](#smartplaylist)
+            * [Acrostic Playlist](#acrosticplaylist)
             * [Lyrics](#lyrics)
     * [Usage](#usage)
 4. [Cache](#cache)
@@ -55,9 +56,14 @@ Get tracks from album
 tracks(id_artist, id_album)
 
 #### SmartPlaylist
- Generate smart playlist using artist seed 
+Generate smart playlist using artist seed 
 
 smartPlaylist(id_artist, limit)
+
+#### AcrosticPlaylist
+Generate a acrostic playlist using artist seed and first track letter
+
+acrostic(id_artist, limit)
 
 #### Lyrics
 Get track lyrics 
