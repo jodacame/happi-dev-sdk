@@ -92,7 +92,7 @@ happi.music.search(query, 40).then(response => {
 });
 ```
 
-##Cache
+## Cache
 Ensable or disable cache
 ```javascript
     // Enable
