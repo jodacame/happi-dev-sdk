@@ -6,7 +6,7 @@ Simple, robust Happi.dev API client
 
 ## Installation
 ```bash
-npm install happi-dev-sdk --save
+npm install https://github.com/jodacame/happi-dev-sdk.git --save
 ```
 
 ## Usage (Music)
