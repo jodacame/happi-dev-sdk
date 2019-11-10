@@ -24,7 +24,7 @@ artist(id_artist)
 
 **Albums:** ***Get albums from artist*** 
 
-artist(id_artist)
+albums(id_artist)
 
 **Tracks:** ***Get tracks from album*** 
 
