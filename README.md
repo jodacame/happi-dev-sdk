@@ -92,6 +92,16 @@ happi.music.search(query, 40).then(response => {
 });
 ```
 
+##Cache
+Ensable or disable cache
+```javascript
+    // Enable
+    happi.cache.on();
+    // Disable
+    happi.cache.off();
+```
+
+
 ## TODO
 * Redis cache
 * Documentation
