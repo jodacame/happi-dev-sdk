@@ -4,8 +4,7 @@
   "description": "Happi.dev SDK",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "publish": "npm version patch & npm publish"
+    "test": "node test.js"
   },
   "keywords": [
     "lyrics",
