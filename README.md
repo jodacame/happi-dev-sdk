@@ -41,39 +41,39 @@ It provides free api to discover millions song, artist, albums, covers and lyric
 
 #### Search
 Search artist or tracks 
-
+```javascript
 search(query, limit, type[artist|tracks, default:track])
-
+````
 #### Artist
 Get artist information
-
+```javascript
 artist(id_artist)
-
+```
 #### Albums
 Get albums from artist 
-
+```javascript
 albums(id_artist)
-
+```
 #### Tracks
 Get tracks from album 
-
+```javascript
 tracks(id_artist, id_album)
-
+```
 #### SmartPlaylist
 Generate smart playlist using artist seed 
-
+```javascript
 smartPlaylist(id_artist, limit)
-
+```
 #### AcrosticPlaylist
 Generate a acrostic playlist using artist seed and first track letter
-
+```javascript
 acrostic(id_artist, message[Max 100 Charactes])
-
+```
 #### Lyrics
 Get track lyrics 
-
+```javascript
 lyrics(id_artist, id_album, id_track)
-
+```
 ### Usage
 
 More info in https://happi.dev/
@@ -95,10 +95,10 @@ happi.music.search(query, 40).then(response => {
 ## Cache
 Ensable or disable cache
 ```javascript
-    // Enable
-    happi.cache.on();
-    // Disable
-    happi.cache.off();
+// Enable
+happi.cache.on();
+// Disable
+happi.cache.off();
 ```
 
 
