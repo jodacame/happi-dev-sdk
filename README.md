@@ -1,3 +1,6 @@
+## Status: Developing (Not stable yet)
+### Don't use it in production yet
+
 # Happi.dev SDK
 Simple, robust Happi.dev API client
 
