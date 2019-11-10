@@ -1,40 +1,66 @@
-## Status: Developing (Not stable yet)
+## Status: Developing (unstable)
 ### Don't use it in production yet
 
 # Happi.dev SDK
 Simple, robust Happi.dev API client
+
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Modules](#modules)
+    1. [Music](#music)
+        1. [Methods](#methods)
+            1. [Search](#search)
+            2. [Artist](#artist)
+            3. [Albums](#albums)
+            4. [Tracks](#tracks)
+            5. [Smart Playlist](#smartplaylist)
+            6. [Lyrics](#lyrics)
+    2. [Usage](#usage)
+4. [Cache](#cache)
 
 ## Installation
 ```bash
 npm install https://github.com/jodacame/happi-dev-sdk.git --save
 ```
 
-## Methods
-### Music
+
+## Modules
+Happi bring new value to your company by driving innovation in many ways. Since APIs are being utilized every day.
+
+## Music
+It provides free api to discover millions song, artist, albums, covers and lyrics
+
+### Methods
 
 
-
-**Search:** ***Search artist or tracks*** 
+#### Search
+Search artist or tracks 
 
 search(query, limit, type[artist|tracks, default:track])
 
-**Artist:** ***Get artist information***
+#### Artist
+Get artist information
 
 artist(id_artist)
 
-**Albums:** ***Get albums from artist*** 
+#### Albums
+Get albums from artist 
 
 albums(id_artist)
 
-**Tracks:** ***Get tracks from album*** 
+#### Tracks
+Get tracks from album 
 
 tracks(id_artist, id_album)
 
-**Smart Playlist:** ***Generate smart playlist using artist seed*** 
+#### SmartPlaylist
+ Generate smart playlist using artist seed 
 
 smartPlaylist(id_artist, limit)
 
-**Lyrics:** ***Get track lyrics*** 
+#### Lyrics
+Get track lyrics 
 
 lyrics(id_artist, id_album, id_track)
 
