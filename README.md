@@ -9,7 +9,36 @@ Simple, robust Happi.dev API client
 npm install https://github.com/jodacame/happi-dev-sdk.git --save
 ```
 
-## Usage (Music)
+## Methods
+### Music
+
+
+
+**Search:** ***Search artist or tracks*** 
+
+search(query, limit, type[artist|tracks, default:track])
+
+**Artist:** ***Get artist information***
+
+artist(id_artist)
+
+**Albums:** ***Get albums from artist*** 
+
+artist(id_artist)
+
+**Tracks:** ***Get tracks from album*** 
+
+tracks(id_artist, id_album)
+
+**Smart Playlist:** ***Generate smart playlist using artist seed*** 
+
+smartPlaylist(id_artist, limit)
+
+**Lyrics:** ***Get track lyrics*** 
+
+lyrics(id_artist, id_album, id_track)
+
+### Usage
 
 More info in https://happi.dev/
 

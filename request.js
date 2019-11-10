@@ -16,10 +16,9 @@ var request = {
             type = type.toUpperCase();
             data = JSON.stringify(data);
             let keyCache = url + JSON.stringify(headers);
-
             if (type == 'GET' && request.useCache) {
+                console.log("[HAPPI.DEV SDK] Using Cache");
                 let c = cache.get(keyCache);
-                
                 if (c) {
                     return resolv(JSON.parse(c));
                 }
@@ -52,6 +51,7 @@ var request = {
                         console.log("[HAPPI.DEV SDK]",json.error);
                     }
                     if (type == 'GET' && json.success && request.useCache){
+                        console.log("[HAPPI.DEV SDK] Saving in Cache");
                         cache.set(keyCache, JSON.stringify({
                             statusCode: resp.statusCode,
                             headers: resp.headers,
