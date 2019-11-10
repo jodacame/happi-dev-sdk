@@ -12,7 +12,11 @@ More info in https://happi.dev/
 
 ```javascript
 var happi = require("happi-dev-sdk");
+
+happi.init('YOUR_API_KEY');
+
 var query = 'Aerosmith Jade';
+
 happi.music.search(query, 40).then(response => {
     console.log(response);
 }).catch(err => {
