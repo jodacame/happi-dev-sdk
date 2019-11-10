@@ -1,8 +1,5 @@
 ## Important
-***Version:*** Alpha
-
 ***Status:*** unstable
-
 ***Don't use it in production yet***
 
 # Happi.dev SDK
