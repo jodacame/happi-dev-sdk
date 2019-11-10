@@ -3,11 +3,28 @@
   "version": "1.0.0",
   "description": "Happi.dev SDK",
   "main": "index.js",
-  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "lyrics",
+    "music",
+    "api",
+    "rest",
+    "happi",
+    "qrcode",
+    "exhangerate",
+    "key/value store",
+    "password generator"
+  ],
+  "author": "jodacame",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodacame/happi-dev-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jodacame/happi-dev-sdk/issues"
+  },
+  "homepage": "https://github.com/jodacame/happi-dev-sdk#readme"
 }
