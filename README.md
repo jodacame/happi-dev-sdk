@@ -1,4 +1,5 @@
-## Status: Developing (unstable)
+## Version: Alpha
+## Status: unstable
 ### Don't use it in production yet
 
 # Happi.dev SDK
