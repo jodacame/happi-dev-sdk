@@ -1,6 +1,9 @@
-## Version: Alpha
-## Status: unstable
-### Don't use it in production yet
+## Important
+***Version:*** Alpha
+
+***Status:*** unstable
+
+***Don't use it in production yet***
 
 # Happi.dev SDK
 Simple, robust Happi.dev API client
