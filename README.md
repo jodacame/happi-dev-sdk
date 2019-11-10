@@ -63,7 +63,7 @@ smartPlaylist(id_artist, limit)
 #### AcrosticPlaylist
 Generate a acrostic playlist using artist seed and first track letter
 
-acrostic(id_artist, limit)
+acrostic(id_artist, message[Max 100 Charactes])
 
 #### Lyrics
 Get track lyrics 
