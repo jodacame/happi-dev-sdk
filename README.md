@@ -16,6 +16,7 @@ Simple, robust Happi.dev API client
             * [Albums](#albums)
             * [Tracks](#tracks)
             * [Smart Playlist](#smartplaylist)
+            * [Smart Playlist by Tempo (BPM)](#smartplaylistbpm)
             * [Acrostic Playlist](#acrosticplaylist)
             * [Lyrics](#lyrics)
     * [Usage](#usage)
@@ -60,6 +61,16 @@ tracks(id_artist, id_album)
 Generate smart playlist using artist seed 
 ```javascript
 smartPlaylist(id_artist, limit)
+```
+#### smartPlaylistByBPM
+Generate smart playlist using bpm range
+```javascript
+smartPlaylistByBPM(bpm, limit)
+```
+##### Examples
+```javascript
+smartPlaylistByBPM(100, limit); // Get smart playlist tempo 100
+smartPlaylistByBPM('80-100', limit); // Get smart playlist tempo between 80 and 100 
 ```
 #### AcrosticPlaylist
 Generate a acrostic playlist using artist seed and first track letter

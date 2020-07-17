@@ -54,7 +54,7 @@ var music = {
 		limit = parseInt(limit);
 		return this.request.ajax(
 			'GET',
-			`${this.getEndPoint()}music/bpm/playlist/${bpm}?limit=${limit}`,
+			`${this.getEndPoint()}bpm/playlist/${bpm}?limit=${limit}`,
 			{},
 			this.getHeaders()
 		);
