@@ -60,6 +60,14 @@ var music = {
 			this.getHeaders()
 		);
 	},
+	genres: function () {
+		return this.request.ajax(
+			'GET',
+			`${this.getEndPoint()}bpm/genres`,
+			{},
+			this.getHeaders()
+		);
+	},
 	acrostic: function (id_artist, message) {
 		return this.request.ajax(
 			'GET',

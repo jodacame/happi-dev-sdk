@@ -19,6 +19,7 @@ Simple, robust Happi.dev API client
             * [Smart Playlist by Tempo (BPM)](#smartplaylistbpm)
             * [Acrostic Playlist](#acrosticplaylist)
             * [Lyrics](#lyrics)
+            * [Genres](#genres)
     * [Usage](#usage)
 4. [Cache](#cache)
 
@@ -81,6 +82,11 @@ acrostic(id_artist, message[Max 100 Charactes])
 Get track lyrics 
 ```javascript
 lyrics(id_artist, id_album, id_track)
+```
+#### Genres
+Get track genres 
+```javascript
+genres()
 ```
 ### Usage
 
