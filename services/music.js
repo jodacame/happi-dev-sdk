@@ -49,12 +49,13 @@ var music = {
 			this.getHeaders()
 		);
 	},
-	smartPlaylistByBPM: function (bpm, limit) {
+	smartPlaylistByBPM: function (bpm, limit, genres) {
 		if (!limit) limit = 25;
+		if (!genres) genres = '';
 		limit = parseInt(limit);
 		return this.request.ajax(
 			'GET',
-			`${this.getEndPoint()}bpm/playlist/${bpm}?limit=${limit}`,
+			`${this.getEndPoint()}bpm/playlist/${bpm}?limit=${limit}&genres=${genres}`,
 			{},
 			this.getHeaders()
 		);

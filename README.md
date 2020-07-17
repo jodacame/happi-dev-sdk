@@ -65,12 +65,12 @@ smartPlaylist(id_artist, limit)
 #### smartPlaylistByBPM
 Generate smart playlist using bpm range
 ```javascript
-smartPlaylistByBPM(bpm, limit)
+smartPlaylistByBPM(bpm, limit,genres)
 ```
 ##### Examples
 ```javascript
-smartPlaylistByBPM(100, limit); // Get smart playlist tempo 100
-smartPlaylistByBPM('80-100', limit); // Get smart playlist tempo between 80 and 100 
+smartPlaylistByBPM(100, 50); // Get smart playlist tempo 100
+smartPlaylistByBPM('80-100', 50, 'rock'); // Get smart playlist tempo between 80 and 100 with rock genre
 ```
 #### AcrosticPlaylist
 Generate a acrostic playlist using artist seed and first track letter
